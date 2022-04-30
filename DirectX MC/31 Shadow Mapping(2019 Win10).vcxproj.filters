@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="通用文件">
+      <UniqueIdentifier>{cad1d704-f450-456c-949e-36f602bbefd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="着色器">
+      <UniqueIdentifier>{f6ab64c3-b540-42e1-8192-88401655f2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="特效文件">
+      <UniqueIdentifier>{f96a9969-8f6b-42c5-a5e8-bc3e6c806bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="着色器\BasicEffect">
+      <UniqueIdentifier>{2f1a7f36-2b5f-487e-8705-9b6af9211e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="着色器\DebugEffect">
+      <UniqueIdentifier>{7680d7b1-6af6-4be9-93b6-a68249c1d0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="着色器\SkyEffect">
+      <UniqueIdentifier>{ea69e4b7-5b11-4bc5-a829-6027d3d61fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="着色器\ShadowEffect">
+      <UniqueIdentifier>{10cc63be-090d-4dab-a647-49d8aa0183e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{285fb99b-0b08-4e2c-9941-f453ab7e0071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通用文件\Baisc">
+      <UniqueIdentifier>{e270520c-3dc7-4942-99d1-ee8ddc722606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通用文件\Textrue">
+      <UniqueIdentifier>{a646a08e-9d44-46c1-96fd-62cd1c3c7180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通用文件\Camera">
+      <UniqueIdentifier>{22e6735f-e435-44e3-8038-94fe06cb74b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通用文件\GameObject">
+      <UniqueIdentifier>{b5b551c9-0f10-46af-919e-641d743a2c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通用文件\Render">
+      <UniqueIdentifier>{713c166d-1e07-4638-ab1d-e38a9c09f98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏逻辑">
+      <UniqueIdentifier>{cac33de3-ebe8-4008-af63-9daa72d91637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏逻辑\Helper">
+      <UniqueIdentifier>{7b3dc5a2-e9dc-4f99-827a-df9653dece8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏逻辑\Block">
+      <UniqueIdentifier>{ec842ece-7c67-413f-9e5b-1f5158c96d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏逻辑\Chunk">
+      <UniqueIdentifier>{e335ad60-66d0-49ba-983a-e4774d8accd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏逻辑\Physic">
+      <UniqueIdentifier>{1fa7ebd7-70ca-4533-9c8f-b72f741d766a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏逻辑\LivingThings">
+      <UniqueIdentifier>{ae054556-1c1f-4e67-bc96-c61aaf9b8133}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LightHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectHelper.h">
+      <Filter>特效文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>特效文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyRender.h">
+      <Filter>特效文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRender.h">
+      <Filter>特效文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGrab.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>通用文件\Textrue</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>通用文件\Textrue</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>通用文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>通用文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>通用文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>通用文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTrace.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dApp.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>通用文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>通用文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjReader.h">
+      <Filter>通用文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>通用文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>通用文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>通用文件\Textrue</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>通用文件\Textrue</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>通用文件\Textrue</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMin.h">
+      <Filter>通用文件\Baisc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\World.h">
+      <Filter>游戏逻辑</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\Array3D.h">
+      <Filter>游戏逻辑\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\Block.h">
+      <Filter>游戏逻辑\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\BlockRender.h">
+      <Filter>游戏逻辑\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\Area.h">
+      <Filter>游戏逻辑\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\Chunk.h">
+      <Filter>游戏逻辑\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>游戏逻辑\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockMaterial.h">
+      <Filter>游戏逻辑\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>游戏逻辑\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Physic.h">
+      <Filter>游戏逻辑\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGenerator.h">
+      <Filter>游戏逻辑</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryItem.h">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEffect.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyRender.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyEffect.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectHelper.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowEffect.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugEffect.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureRender.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGrab.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>通用文件\Textrue</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>通用文件\Textrue</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>通用文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>通用文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>通用文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjReader.cpp">
+      <Filter>通用文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>通用文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTrace.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>通用文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtil.cpp">
+      <Filter>通用文件\Baisc</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>通用文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>通用文件\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>通用文件\Textrue</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>通用文件\Textrue</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>通用文件\Textrue</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\World.cpp">
+      <Filter>游戏逻辑</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\BlockRender.cpp">
+      <Filter>游戏逻辑\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\Area.cpp">
+      <Filter>游戏逻辑\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\Chunk.cpp">
+      <Filter>游戏逻辑\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Physic.cpp">
+      <Filter>游戏逻辑\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>游戏逻辑\LivingThings</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGenerator.cpp">
+      <Filter>游戏逻辑</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Basic.hlsli">
+      <Filter>着色器\BasicEffect</Filter>
+    </None>
+    <None Include="HLSL\LightHelper.hlsli">
+      <Filter>着色器\BasicEffect</Filter>
+    </None>
+    <None Include="HLSL\DebugTexture.hlsli">
+      <Filter>着色器\DebugEffect</Filter>
+    </None>
+    <None Include="HLSL\Sky.hlsli">
+      <Filter>着色器\SkyEffect</Filter>
+    </None>
+    <None Include="HLSL\TransformHelper.hlsli">
+      <Filter>着色器\BasicEffect</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\Basic_PS.hlsl">
+      <Filter>着色器\BasicEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\BasicInstance_VS.hlsl">
+      <Filter>着色器\BasicEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\BasicObject_VS.hlsl">
+      <Filter>着色器\BasicEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\NormalMap_PS.hlsl">
+      <Filter>着色器\BasicEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\NormalMapInstance_VS.hlsl">
+      <Filter>着色器\BasicEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\NormalMapObject_VS.hlsl">
+      <Filter>着色器\BasicEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DebugTexture_VS.hlsl">
+      <Filter>着色器\DebugEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DebugTextureOneComp_PS.hlsl">
+      <Filter>着色器\DebugEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DebugTextureOneCompGray_PS.hlsl">
+      <Filter>着色器\DebugEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DebugTextureRGBA_PS.hlsl">
+      <Filter>着色器\DebugEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Sky_PS.hlsl">
+      <Filter>着色器\SkyEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Sky_VS.hlsl">
+      <Filter>着色器\SkyEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Shadow_PS.hlsl">
+      <Filter>着色器\ShadowEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ShadowInstance_VS.hlsl">
+      <Filter>着色器\ShadowEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ShadowObject_VS.hlsl">
+      <Filter>着色器\ShadowEffect</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
